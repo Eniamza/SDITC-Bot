@@ -1,0 +1,25 @@
+{
+  "name": "sditc-buddy",
+  "version": "0.1.0",
+  "description": "A bot for SDITC Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eniamza/SDITC-Bot.git"
+  },
+  "keywords": [
+    "sditc"
+  ],
+  "author": "Eniamza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eniamza/SDITC-Bot/issues"
+  },
+  "homepage": "https://github.com/Eniamza/SDITC-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
