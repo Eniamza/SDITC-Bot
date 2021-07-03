@@ -19,7 +19,9 @@ client.on('message', message => {
     console.log(command);
     
     if(command==="ping"){
-        message.channel.send("Latency: "+(Date.now()- message.createdTimestamp)+"ms");
+
+      message.react('💻');
+      message.channel.send("Latency: "+(Date.now()- message.createdTimestamp)+"ms");
 
     }
     
