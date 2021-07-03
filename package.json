@@ -21,5 +21,6 @@
   "homepage": "https://github.com/Eniamza/SDITC-Bot#readme",
   "dependencies": {
     "discord.js": "^12.5.3"
-  }
+  },
+  "devDependencies": {}
 }
