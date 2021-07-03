@@ -18,8 +18,8 @@ client.on('message', message => {
 
     console.log(command);
     
-    if(command==="ola"){
-        message.channel.send("Hukka Hua");
+    if(command==="ping"){
+        message.channel.send("Latency: "+(Date.now()- message.createdTimestamp)+"ms");
 
     }
     
