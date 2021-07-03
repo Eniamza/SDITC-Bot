@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const config = require("./config.json");
 const prefix = config.prefix;
+const verify = require("./lib/modules/verify");
 const client = new Discord.Client();
 
 client.once('ready', () => {
@@ -22,6 +23,12 @@ client.on('message', message => {
 
       message.react('💻');
       message.channel.send("Latency: "+(Date.now()- message.createdTimestamp)+"ms");
+
+    }
+    else if(command==="verify"){
+
+      message.react('💻');
+      verify(message,args);
 
     }
     
