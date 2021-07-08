@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/Eniamza/SDITC-Bot#readme",
   "dependencies": {
-    "discord.js": "^12.5.3"
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.3",
+    "google-spreadsheet": "^3.1.15"
   },
   "devDependencies": {}
 }
