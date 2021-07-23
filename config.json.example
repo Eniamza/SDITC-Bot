@@ -2,6 +2,7 @@
 
     "bot-token":"",
     "prefix":"",
-    "api":""
+    "api":"",
+    "verifiedRoleId":""
 
 }
