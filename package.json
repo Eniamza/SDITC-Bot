@@ -4,7 +4,7 @@
   "description": "A bot for SDITC Discord",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "nodemon ."
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,7 @@
     "discord.js": "^12.5.3",
     "google-spreadsheet": "^3.1.15"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
 }
